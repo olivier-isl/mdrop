@@ -1,0 +1,41 @@
+{
+	"compile-hero": {
+		"disable-compile-files-on-did-save-code": false,
+		"notification-toggle": true,
+		"javascript-output-directory": "./out",
+		"javascript-output-toggle": false,
+		"sass-output-toggle": true,
+		"scss-output-directory": "../../dist/css",
+		"ignore": ["src/test.js", "*/test.scss", "**/spec/*"],
+		"watch": ["src/scss/style.scss"],
+		"generate-minified-css": true,
+		"language": {
+			"js": {
+				"type": [
+				"javascript",
+				"json",
+				"jsonc"
+				],
+				"filename": [
+				".jshintrc",
+				".jsbeautifyrc"
+				]
+			},
+			"css": [
+				"css",
+				"less",
+				"scss",
+				"sass",
+				"stylus"
+			],
+			"pug": [
+				"pug"
+			],
+			"html": [
+				"htm",
+				"html"
+			]
+		}
+	},
+}
+
